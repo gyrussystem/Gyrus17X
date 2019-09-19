@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Masters">
+  <test name="Login">
+  <classes>
+	<class name="Master.LogIn"></class>
+  </classes>
+ </test>
+
+<!--<test name="eLearning">
+		<classes>
+			<class name="Training.eLearning">
+			</class>
+		</classes>
+	</test>
+	<test name="Document">
+		<classes>
+			<class name="Training.Document">
+			</class>
+		</classes>
+	</test>
+<test name="External_Link">
+		<classes>
+			<class name="Training.External_Link">
+			</class>
+		</classes>
+	</test>
+-->
+
+
+ <test name="Add_Employee">
+ <classes>
+ <class name="Manage_System.Employee.Add_Employee"></class>
+ </classes>
+ </test>
+  <test name="Emoployee_Functionality">
+ <classes>
+ <class name="Manage_System.Employee.Emoployee_Functionality"></class>
+ </classes>
+ </test>
+
+	
+
+
+</suite>

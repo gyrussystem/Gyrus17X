@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Masters]">
+  <test thread-count="5" name="Emoployee_Functionality(failed)">
+    <classes>
+      <class name="Manage_System.Employee.Emoployee_Functionality">
+        <methods>
+          <include name="Edit_Employee"/>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="CheckTestCaseExecution"/>
+          <include name="Action_Employee_Functioanlity"/>
+          <include name="View_Add_Employee" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Manage_System.Employee.Emoployee_Functionality -->
+    </classes>
+  </test> <!-- Emoployee_Functionality(failed) -->
+</suite> <!-- Failed suite [Masters] -->
