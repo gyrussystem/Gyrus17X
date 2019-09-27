@@ -5,6 +5,7 @@
   <test name="Login">
   <classes>
 	<class name="Master.LogIn"></class>
+	<class name="Master.Log_Out"></class>
   </classes>
  </test>
 
