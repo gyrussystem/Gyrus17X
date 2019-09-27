@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Masters]">
-  <test thread-count="5" name="Emoployee_Functionality(failed)">
+<suite name="Failed suite [Masters]">
+  <test name="Login(failed)">
     <classes>
-      <class name="Manage_System.Employee.Emoployee_Functionality">
+      <class name="Master.LogIn">
         <methods>
-          <include name="Edit_Employee"/>
           <include name="checkExecutionModeTestSuite"/>
+          <include name="testIT"/>
           <include name="CheckTestCaseExecution"/>
-          <include name="Action_Employee_Functioanlity"/>
-          <include name="View_Add_Employee" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Manage_System.Employee.Emoployee_Functionality -->
+      </class> <!-- Master.LogIn -->
+      <class name="Master.Log_Out">
+        <methods>
+          <include name="testIT"/>
+          <include name="CheckTestCaseExecution"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- Master.Log_Out -->
     </classes>
-  </test> <!-- Emoployee_Functionality(failed) -->
+  </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [Masters] -->

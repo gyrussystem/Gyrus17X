@@ -139,9 +139,9 @@ public class UtilityMethods extends BaseInit{
 
 			TakesScreenshot screenshot =  (TakesScreenshot)driver;
 			File source = screenshot.getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(source, new File("192.168.1.123/SAASautomation/GyrusAim17x/GyrusAim17x/Screenshot/Screenshot_"+screenshotname+dateFormat.format(date)+".png"));
+			FileUtils.copyFile(source, new File("//192.168.1.123//SAASautomation//GyrusAim17x//GyrusAim17x//Screenshot//"+screenshotname+dateFormat.format(date)+".png"));
 
-			System.out.println("-----SCREEN SHOT TAKEN");
+			System.out.println("FAILED----->SCREENSHOT TAKEN----------");
 
 		}
 		catch(Exception excep)
